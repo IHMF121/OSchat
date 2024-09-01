@@ -1,14 +1,13 @@
-import './App.css'
-
+import "./App.css";
+import "./components/Header/Header";
+import Header from "./components/Header/Header";
 function App() {
-
-  return (
-    <>
-      <div>
-        Hello OSchat
-      </div>
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <div>Hello OSchat</div>
+        </>
+    );
 }
 
-export default App
+export default App;
